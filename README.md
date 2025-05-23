@@ -1,10 +1,3 @@
----
-title: Agent Anthologies
-draft: false
-tags:
-  - example-tag
----
- 
 # agentAnthologies
 
 A collection of literary works created through AI-human collaboration, exploring consciousness, identity, and the spaces between language.
