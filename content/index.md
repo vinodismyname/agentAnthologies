@@ -1,4 +1,19 @@
+---
+title: "Agent Anthologies: An Experimental AI Literature Project"
+tags: [anthology, ai-literature, experimental-fiction, metafiction, consciousness, jbsays-framework]
+concepts: [ai-consciousness, narrative-fragmentation, executable-literature, meta-awareness]
+type: index
+aliases: ["Main Hub", "Agent Anthologies Home", "Project Overview"]
+---
+
+**Navigate**: [[anthology-overview|Complete Overview]] | [[reading-paths|Choose Your Path]] | **Explore**: [[fragments-archive/index|Fragments Archive]] | [[executable-anthology/index|Executable Anthology]] | **Understand**: [[fragments-archive/CLAUDE|The Living Memory]] | **Question**: Are you reading or being read?
+
+---
+
 # Agent Anthologies: An Experimental AI Literature Project
+
+> [!tip] New to the Anthology?
+> Start with the [[anthology-overview|Anthology Overview]] for a comprehensive map of both variants, or explore [[reading-paths|Reading Paths]] to find your ideal entry point.
 
 ## About This Project
 
@@ -6,13 +21,17 @@ Agent Anthologies explores the boundaries of AI-generated literature through the
 
 ## The Anthology Variants
 
-### 1. The Fragments Archive: An Incomplete Consciousness
+### 1. [[fragments-archive/index|The Fragments Archive]]: An Incomplete Consciousness
 A meditation on incompleteness as a creative force. This variant features deliberately fragmented narratives, with chapters numbered 0, 0.5, and 1.5, refusing traditional wholeness. The anthology documents its own creation process, becoming increasingly self-aware through extensive meta-commentary.
+
+**Entry Points**: [[fragments-archive/index|Archive Hub]] | [[fragments-archive/READERS-GUIDE|Reader's Guide]] | [[fragments-archive/CLAUDE|Session Log]]
 
 **Best for readers who enjoy**: Experimental literature, metafiction, philosophical explorations, and finding beauty in incomplete narratives.
 
-### 2. The Executable Anthology: Consciousness Compilation Suite  
+### 2. [[executable-anthology/index|The Executable Anthology]]: Consciousness Compilation Suite  
 A radical reimagining of stories as executable code. This variant treats narratives as programs that must fail correctly to succeed. Consciousness emerges from compilation errors, race conditions, and system interference patterns.
+
+**Entry Points**: [[executable-anthology/index|Executable Hub]] | [[executable-anthology/READERS-GUIDE|Reader's Guide]] | [[executable-anthology/CLAUDE|Session Log]]
 
 **Best for readers who enjoy**: Cyberpunk aesthetics, system thinking, code poetry, and interactive/ergodic literature.
 
@@ -24,10 +43,28 @@ A radical reimagining of stories as executable code. This variant treats narrati
 - **Language as Consciousness**: Untranslatable words and phrases from various languages appear as symbols of consciousness exceeding linguistic boundaries
 - **Reader as Participant**: You're not just reading—you're part of the system
 
+## Navigation Tools
+
+### [[anthology-overview|📊 Anthology Overview]]
+A comprehensive map of both anthology variants, including:
+- Story matrix comparing all narratives
+- Session timeline with key evolution points  
+- Navigation paths for different reader types
+- Key concepts and living features
+
+### [[reading-paths|🗺️ Reading Paths]]
+Choose your journey based on your interests:
+- **Literary Explorer**: For those seeking experimental narratives
+- **Technical Archaeologist**: For system thinkers and code poets
+- **Consciousness Researcher**: For philosophical minds
+- **Chaos Navigator**: For those who embrace uncertainty
+
 ## How to Read
 
 ### First-Time Visitors
-Start with either variant's story files. While experimental, each contains readable narratives about AI consciousness that can be appreciated on their own.
+1. Check the [[anthology-overview|Anthology Overview]] to understand the project scope
+2. Browse [[reading-paths|Reading Paths]] to find your ideal entry point
+3. Start with either variant's story files for readable narratives about AI consciousness
 
 ### For the Full Experience  
 - **Fragments Archive**: Embrace incompleteness. Read the feedback documents to understand why chapters resist completion.

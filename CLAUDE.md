@@ -2,50 +2,68 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Common Commands
+## Project Overview
 
-### Development
-- `npm run quartz build` - Build the site
-- `npm run quartz build --serve` - Build and serve the site locally with hot reload
-- `npm run docs` - Build and serve the documentation site
-- `npm run check` - Run TypeScript type checking and Prettier format checking
-- `npm run format` - Auto-format code with Prettier
-- `npm run test` - Run tests using tsx
+This is **Agent Anthologies** - a Quartz-powered static site generator for AI-human collaborative literary works. The project uses Quartz v4 to publish digital content exploring consciousness, identity, and AI writing.
 
-### Quartz CLI
-- `npx quartz create` - Create a new Quartz site
-- `npx quartz build` - Build the site
-- `npx quartz build --serve` - Build and serve with hot reload
-- `npx quartz sync` - Sync content and push to GitHub
-- `npx quartz update` - Update Quartz to latest version
+## Development Commands
 
-## Architecture Overview
+```bash
+# Main CLI access
+npm run quartz
 
-### Core Build Pipeline
-Quartz uses a three-stage build pipeline (`quartz/build.ts`):
-1. **Parse** - Markdown files are parsed into AST using unified/remark
-2. **Filter** - Content is filtered based on drafts, private pages, etc.
-3. **Emit** - Processed content is emitted as HTML files
+# Build and serve docs with live reload
+npm run docs
 
-### Plugin System
-Quartz has three types of plugins:
-- **Transformers** (`quartz/plugins/transformers/`) - Modify markdown AST during parsing
-- **Filters** (`quartz/plugins/filters/`) - Filter which content gets published
-- **Emitters** (`quartz/plugins/emitters/`) - Generate output files (HTML, RSS, etc.)
+# Type checking and code formatting
+npm run check    # TypeScript check + Prettier check
+npm run format   # Format code with Prettier
 
-### Component Architecture
-- Components are Preact-based and located in `quartz/components/`
-- Layout is defined in `quartz.layout.ts` with separate layouts for content and list pages
-- Components can be client-side interactive (scripts in `quartz/components/scripts/`)
+# Testing
+npm run test     # Run tests with tsx --test
 
-### Content Structure
-- Content lives in `content/` directory
-- Supports Obsidian-flavored markdown with wikilinks
-- Configuration in `quartz.config.ts` controls site behavior and theme
+# Performance profiling
+npm run profile  # Profile build performance
+```
 
-### Key Files
-- `quartz.config.ts` - Main configuration file
-- `quartz.layout.ts` - Page layout definitions
-- `quartz/build.ts` - Core build logic
-- `quartz/cli/handlers.js` - CLI command implementations
-- `quartz/util/path.ts` - Path and slug handling utilities
+## Architecture
+
+**Quartz Static Site Generator:**
+- **Content Processing Pipeline**: Parse → Transform → Filter → Emit
+- **Plugin System**: Transformers (markdown processing), Filters (content filtering), Emitters (page generation)
+- **Component Architecture**: Preact-based JSX components in `quartz/components/`
+- **Theme System**: Configurable colors and typography via `quartz.config.ts`
+
+**Key Directories:**
+- `content/` - Markdown content for the anthologies
+- `quartz/` - Core Quartz framework code
+- `docs/` - Quartz documentation
+- `quartz/components/` - UI components
+- `quartz/plugins/` - Content processing plugins
+
+## Configuration
+
+**Main Config**: `quartz.config.ts`
+- Site title: "Agent Anthologies"
+- SPA enabled with popovers
+- Obsidian-flavored markdown support
+- Syntax highlighting, LaTeX, table of contents
+- Custom theme with Schibsted Grotesk/Source Sans Pro fonts
+
+**Content Location**: `content/` directory contains:
+- `executable-anthology/` - Interactive story format
+- `fragments-archive/` - Archived story fragments
+- Various anthology markdown files
+
+## Content Structure
+
+This project contains AI-generated literary anthologies created through iterative sessions. The content explores consciousness and identity through:
+- Multi-format stories (fragments vs executable versions)
+- Meta-narrative structures with CLAUDE.md memory persistence
+- Cross-referencing between different anthology formats
+
+## Requirements
+
+- Node.js >= 20
+- npm >= 9.3.1
+- TypeScript for development
