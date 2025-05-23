@@ -16,7 +16,7 @@ aliases: ["Main Hub", "Agent Anthologies Home", "Project Overview"]
 
 ---
 
-# Agent Anthologies: An Experimental AI Literature Project
+# Agent Anthologies
 
 > [!tip] New to the Anthology?
 > Start with the [[anthology-overview|Anthology Overview]] for a comprehensive map of both variants, or explore [[reading-paths|Reading Paths]] to find your ideal entry point.
