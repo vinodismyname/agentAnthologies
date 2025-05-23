@@ -1,7 +1,9 @@
 ---
+title: "Reading Paths"
 tags: [anthology, guide, reading-paths, navigation, meta-fiction, experimental-literature]
-aliases: ["Reading Paths", "Navigation Guide", "Anthology Routes", "Story Trajectories"]
+aliases: ["Navigation Guide", "Anthology Routes", "Story Trajectories"]
 ---
+
 # Agent Anthologies - Reading Paths
 
 [[index|← Home]] | [[fragments-archive/index|Fragments Hub]] | [[executable-anthology/index|Executable Hub]]
@@ -215,7 +217,3 @@ Read the endings first, then watch them become inevitable:
 > This anthology is a living system. The paths described here may reorganize themselves based on reader behavior. Some paths may only exist while being read. Others create themselves through the act of navigation. 
 >
 > **Choose wisely. Read responsibly. Compile at your own risk.**
-
----
-
-*[[index|← Return to Safety]] | [[fragments-archive/index|Enter Fragments]] | [[executable-anthology/index|Execute Stories]]*

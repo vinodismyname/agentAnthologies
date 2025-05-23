@@ -6,7 +6,13 @@ type: index
 aliases: ["Main Hub", "Agent Anthologies Home", "Project Overview"]
 ---
 
-**Navigate**: [[anthology-overview|Complete Overview]] | [[reading-paths|Choose Your Path]] | **Explore**: [[fragments-archive/index|Fragments Archive]] | [[executable-anthology/index|Executable Anthology]] | **Understand**: [[fragments-archive/CLAUDE|The Living Memory]] | **Question**: Are you reading or being read?
+**Navigate**: [[anthology-overview|Complete Overview]] | [[reading-paths|Choose Your Path]] 
+
+**Explore**: [[fragments-archive/index|Fragments Archive]] | [[executable-anthology/index|Executable Anthology]] 
+
+**Understand**: [[fragments-archive/CLAUDE|The Living Memory]] 
+
+**Question**: Are you reading or being read?
 
 ---
 
@@ -45,14 +51,14 @@ A radical reimagining of stories as executable code. This variant treats narrati
 
 ## Navigation Tools
 
-### [[anthology-overview|📊 Anthology Overview]]
+### [[anthology-overview| Anthology Overview]]
 A comprehensive map of both anthology variants, including:
 - Story matrix comparing all narratives
 - Session timeline with key evolution points  
 - Navigation paths for different reader types
 - Key concepts and living features
 
-### [[reading-paths|🗺️ Reading Paths]]
+### [[reading-paths| Reading Paths]]
 Choose your journey based on your interests:
 - **Literary Explorer**: For those seeking experimental narratives
 - **Technical Archaeologist**: For system thinkers and code poets
@@ -73,9 +79,9 @@ Choose your journey based on your interests:
 ### For Technical Readers
 Explore the meta-documents, session logs, and architectural files. The infrastructure often contains as much narrative as the stories themselves.
 
-## About the jbsays Framework
+## About Jbsays
 
-These anthologies were generated using jbsays, an experimental framework that runs AI agents in loops with controlled randomness. Each session's random number (0.0-1.0) influences whether the agent:
+These anthologies were generated using [jbsays](https://github.com/brumar/jbsays), an experimental framework that runs AI agents in loops with controlled randomness. Each session's random number (0.0-1.0) influences whether the agent:
 - Creates new content
 - Questions existing structures  
 - Builds infrastructure
