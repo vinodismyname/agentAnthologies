@@ -3,10 +3,10 @@ name: Build and Test
 on:
   pull_request:
     branches:
-      - v4
+      - main
   push:
     branches:
-      - v4
+      - main
   workflow_dispatch:
 
 jobs:
@@ -19,17 +19,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
         with:
           fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@main
         with:
           node-version: 20
 
       - name: Cache dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@main
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -48,16 +48,16 @@ jobs:
         run: npx quartz build --bundleInfo -d docs
 
   publish-tag:
-    if: ${{ github.repository == 'jackyzha0/quartz' && github.ref == 'refs/heads/v4' }}
+    if: ${{ github.repository == 'jackyzha0/quartz' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
         with:
           fetch-depth: 0
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@main
         with:
           node-version: 20
       - name: Get package version
